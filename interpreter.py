@@ -1,5 +1,4 @@
-   
-import random
+from random import randint
 translations = {
     'drink_green': 'print',
     'dark': 'input',
@@ -13,7 +12,12 @@ translations = {
     'brew': 'lower',
     'boil': 'upper',
     'cook': 'for',
-    'pour': 'while'
+    'pour': 'while',
+    'recipe?': '=',
+    'grow': 'return',
+    'say': '(',
+    'finish': ')',
+    'do': ':'
 }
 while True:
     mode = int(input('Введите режим 1 - программу в консоль; Введите режим 2 - из файла '))
