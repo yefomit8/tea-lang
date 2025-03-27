@@ -5,7 +5,6 @@ drink_greensay'чай крутой'finish
 ```
 
 ### `dark()`
-Позволяет что-то спросить, потому что вас будут уважать.
 
 ```python
 # Просит ответ
@@ -32,7 +31,7 @@ grass piusaynumfinish:
     storerecipe numfinish
 ```
 ```python
-# вернёт занцение и закончит функцию
+# вернёт значение и закончит функцию
 grass piusaynumfinish:
     recipe? num
 ```
@@ -40,19 +39,19 @@ grass piusaynumfinish:
 
 ### `blue` (аналог if)
 ```python
-blue 1 == num:
+blue 1 == numdo
     drink_greensay'равно'finish
 ```
 
 ### `mix` (аналог elif)
 ```python
-mix 1 != num:
+mix 1 != numdo
     drink_greensay'не равно'finish
 ```
 
 ### `red` (аналог else)
 ```python
-red:
+reddo
     drink_greensay'что???'finish
 ```
 
@@ -101,8 +100,10 @@ pour i < 10:
 ```python
 break
 ```
-## Условные опереторы
-### Прерывание цикла ввода
-```python
+### Пунктуация
+= recipe?
+( say
+) finish
 
-```
+
+
