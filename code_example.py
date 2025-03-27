@@ -1,10 +1,11 @@
-grass func():
-    y = color(1, 4)
-    blue y == dark():
-        return 'win'
-    red:
-        return 'loose'
-i = 0
-pour i != 10:
-    drink_green(func())
-    i += 1
+grass funcsayfinishdo
+    y recipe? colorsay1, 4finish
+    drink_greensayyfinish
+    blue y recipe?recipe? drinksaydarksayfinishfinishdo
+        grow 'win'
+    reddo
+        grow 'loss'
+i recipe? 0
+pour i !recipe? 10do
+    drink_greensayfuncsayfinishfinish
+    i +recipe? 1
