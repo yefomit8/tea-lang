@@ -1,15 +1,7 @@
-
-# Документация для Teapyt
-
-## Функции
-```python
-# Позволяет что-то сказать, потому что только после такого у вас будут на это силы.
-drink_green()`
-
-```
 ```python
 # Выведет "чай крутой"
-drink_green('чай крутой')
+drink_greensay'чай крутой'finish
+
 ```
 
 ### `dark()`
@@ -17,54 +9,58 @@ drink_green('чай крутой')
 
 ```python
 # Просит ответ
-dark('Ответьте')
+darksay'Ответьте'finish
 ```
 
 ## Получение значений
 
 ### Для цифры:
 ```python
-drink('52')
+drinksay'52'finish
 ```
 
 ### Для строки:
 ```python
-store(52)
+storerecipe52finish
 ```
 
-## Создание функций
+## работа с функциями
 
 ```python
 # Создаст функцию
-grass piu(num):
-    store(num)
+grass piusaynumfinish:
+    storerecipe numfinish
 ```
-
+```python
+# вернёт занцение и закончит функцию
+grass piusaynumfinish:
+    recipe? num
+```
 ## Условные операторы
 
 ### `blue` (аналог if)
 ```python
 blue 1 == num:
-    drink_green('равно')
+    drink_greensay'равно'finish
 ```
 
 ### `mix` (аналог elif)
 ```python
 mix 1 != num:
-    drink_green('не равно')
+    drink_greensay'не равно'finish
 ```
 
 ### `red` (аналог else)
 ```python
 red:
-    drink_green('что???')
+    drink_greensay'что???'finish
 ```
 
 ## Случайные числа
 
 ```python
 # Выведет случайное число от 1 до 3
-color(1, 3)
+colorsay1, 3finish
 ```
 
 ## Работа со строками
@@ -72,15 +68,15 @@ color(1, 3)
 ### Понижение регистра
 ```python
 # string станет "привет"
-string = 'ПРИВЕТ'
-string.brew()
+stringrecipe'ПРИВЕТ'
+string.brewsayfinish
 ```
 
 ### Повышение регистра
 ```python
 # string станет "ПРИВЕТ"
-string = 'привет'
-string = string.boil()
+stringrecipe'привет'
+stringrecipestring.boilsayfinish
 ```
 
 ## Циклы
@@ -88,19 +84,25 @@ string = string.boil()
 ### С ограниченным количеством операций
 ```python
 # Выведет "чай крутой" 10 раз
-cook i in range(10):
-    drink_green('чай крутой')
+cook i in rangesay10finish:
+    drink_greensay'чай крутой'finish
 ```
 
 ### С неограниченным количеством операций
 ```python
 # Выведет "чай крутой" 10 раз
 pour i < 10:
-    drink_green('чай крутой')
-    i += 1
+    drink_greensay'чай крутой'finish
+    irecipei + 1
 ```
+```python
 
 ### Прерывание цикла ввода
 ```python
 break
+```
+## Условные опереторы
+### Прерывание цикла ввода
+```python
+
 ```
